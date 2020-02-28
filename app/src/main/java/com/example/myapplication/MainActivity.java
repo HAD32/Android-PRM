@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     synchronized (this){
                         try{
                             wait(1000);
-                            count--;
+                            count++;
                             String data = "Counter: "+count;
                             Bundle bundle = new Bundle();
                             bundle.putString("data", data);
